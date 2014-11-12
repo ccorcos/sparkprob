@@ -5,25 +5,22 @@ def readme():
         return f.read()
 
 setup(
-    name='se3',
-    version='0.2',
-    description='Homogenous transforms in special euclidian 3-space.',
+    name='sparkprob',
+    version='0.1',
+    description='Sparklines for probability distributions',
     long_description=readme(),
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Programming Language :: Python :: 2.7',
         'Intended Audience :: Science/Research',
     ],
-    keywords='euclidian special homogenous transform rotation 3d',
-    url='https://github.com/ccorcos/se3',
+    keywords='sparklines probability distribution print bar graph',
+    url='https://github.com/ccorcos/sparkprob',
     author='Chet Corcos',
     author_email='ccorcos@gmail',
     license='MIT',
-    packages=['se3'],
-    install_requires=[
-        'numpy',
-        'matplotlib'
-    ],
+    packages=['sparkprob'],
+    install_requires=[],
     test_suite='nose.collector',
     tests_require=['nose'],
     include_package_data=True,
